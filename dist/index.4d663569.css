@@ -8,4 +8,103 @@
   max-width: 200px;
 }
 
+.body {
+  background: #333;
+  margin-bottom: 30px;
+}
+
+#Nav {
+  width: 80%;
+  background: -o-linear-gradient(top, #fff 0%, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%);
+  background: -ms-linear-gradient(top, #fff 0%, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%);
+  height: 60px;
+  background: linear-gradient(#fff 0%, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%);
+  -webkit-border-radius: 60px / 150px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px #000;
+}
+
+#Nav ul {
+  margin-left: 55px;
+}
+
+#Nav ul li {
+  float: left;
+  margin-left: 20px;
+  padding: 19px;
+  list-style: none;
+}
+
+#Nav ul li a {
+  color: #000;
+  font-family: Century Gothic;
+  text-decoration: none;
+}
+
+#Nav ul li:hover {
+  background: -o-linear-gradient(top, #bfd255 0%, #8eb92a 50%, #72aa00 51%, #9ecb2d 100%);
+  background: -ms-linear-gradient(top, #bfd255 0%, #8eb92a 50%, #72aa00 51%, #9ecb2d 100%);
+  background: -moz-linear-gradient(top, #bfd255 0%, #8eb92a 50%, #72aa00 51%, #9ecb2d 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#bfd255), color-stop(.5, #8eb92a), color-stop(.51, #72aa00), to(#9ecb2d));
+  background: -webkit-linear-gradient(top, #bfd255 0%, #8eb92a 50%, #72aa00 51%, #9ecb2d 100%);
+  box-shadow: 0 0 5px #000;
+}
+
+.bn29 {
+  color: #fff;
+  font-style: 1.2em;
+  z-index: 1;
+  cursor: pointer;
+  text-shadow: 3px 3px 10px #00000073;
+  background: none;
+  border: none;
+  outline: none;
+  margin-bottom: 50px;
+  padding: .8em 2.5em;
+  position: relative;
+}
+
+.bn29:before, .bn29:after {
+  width: 105%;
+  height: 105%;
+  content: "";
+  z-index: -2;
+  background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+  border-radius: 10em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%)translateY(-50%);
+}
+
+.bn29:before {
+  -webkit-filter: blur(7px);
+  filter: blur(7px);
+  transition: all .25s;
+  animation: 10s infinite pulse;
+}
+
+.bn29:after {
+  -webkit-filter: blur(.3px);
+  filter: blur(.3px);
+}
+
+.bn29:hover:before {
+  width: 115%;
+  height: 115%;
+}
+
+.container {
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+  display: flex;
+}
+
+#countryInfo {
+  width: 300px;
+  margin-bottom: 50px;
+  padding: 20px 60px;
+}
+
 /*# sourceMappingURL=index.4d663569.css.map */
